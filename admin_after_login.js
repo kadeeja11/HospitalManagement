@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 editForm.id = 'editForm';
 
                 // Define input fields
-                const nameInput = createInput('text', 'edit-patient-name', patient.name);
+                const nameInput = createInput('text', 'edit-name', patient.name);
                 const contactInput = createInput('text', 'edit-contact', patient.contact);
                 const ageInput = createInput('text', 'edit-age', patient.age);
                 const covidInput = createInput('text', 'edit-covid-status', patient.covid);
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Fetch edited patient details
         const editedPatient = {
             id: patientId,
-            name: document.getElementById('edit-patient-name').value,
+            name: document.getElementById('edit-name').value,
             contact: document.getElementById('edit-contact').value,
             age: document.getElementById('edit-age').value,
             covid: document.getElementById('edit-covid-status').value,
