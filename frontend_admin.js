@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     let adminLoginForm = document.querySelector('#adminLoginForm');
-    let patientsList = document.getElementById('patientsList');
-    let editPatientForm = document.getElementById('editPatientForm');
+    //let patientsList = document.getElementById('patientsList');
+    //let editPatientForm = document.getElementById('editPatientForm');
 
     // Event listener for admin login form
     adminLoginForm.addEventListener('submit', function (e) {
