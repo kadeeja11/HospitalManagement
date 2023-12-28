@@ -8,3 +8,4 @@
 #### Step 3: Run the main function in MyJDBC.java file
 #### Step 4: Fill the form
 In the given video below, I have explained each and every process very clearly.
+[sample.txt](https://github.com/kadeeja11/hospitalmanagement/files/13789290/sample.txt)
